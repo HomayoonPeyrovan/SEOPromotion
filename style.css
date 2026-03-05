@@ -1,0 +1,17 @@
+/* ===== Social Icons ===== */
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0 30px;
+}
+
+.social-icons img {
+  width: 32px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
